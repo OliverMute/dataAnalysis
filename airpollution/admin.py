@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from airpollution.models import Country, Pollutant, PollutantEntry
+
+admin.site.register(Country)
+admin.site.register(Pollutant)
+admin.site.register(PollutantEntry)
+
