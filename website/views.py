@@ -6,7 +6,7 @@ from website.models import MyApp
 
 def index(request):
     all_apps = MyApp.objects.all()
-    """-> Get all of the entries for this models
+    """Get all of the entries for this models
     all_apps -> it's a query like in SQL"""
     context = {
         'my_apps': all_apps,
