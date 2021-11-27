@@ -5,6 +5,3 @@
 __pycache__/
 *.py[cod]
 *$py.class
-airpollution/__pycache__/
-website/__pycache__/
-website/migrations/__pycache__/
