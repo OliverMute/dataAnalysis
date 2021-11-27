@@ -10,7 +10,7 @@ def index(request):
     all_apps -> it's a query like in SQL"""
     context = {
         'my_apps': all_apps,
-        'page': request.path
+        'view_name': request.resolver_match.view_name
     }
     """ access 'my_apps' context in HTML
     ex: when we loop, we use 'my_apps' -> for app in my_apps"""
